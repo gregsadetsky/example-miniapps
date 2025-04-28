@@ -4,4 +4,4 @@ FROM alpine:latest
 RUN mkdir -p /app/dist
 
 # Create index.html with "a" in it
-RUN echo "a" > /app/dist/index.html
+RUN echo "b" > /app/dist/index.html
