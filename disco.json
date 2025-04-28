@@ -6,7 +6,8 @@
         },
         "app1": {
             "type": "generator",
-            "publicPath": "app1/dist"
+            "publicPath": "app1/dist",
+            "image": "app1"
         }
     },
     "images": {
