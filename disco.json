@@ -1,0 +1,18 @@
+{
+    "version": "1.0",
+    "services": {
+        "web": {
+            "port": 8000
+        },
+        "app1": {
+            "type": "generator",
+            "publicPath": "app1/dist"
+        }
+    },
+    "images": {
+        "app1": {
+            "dockerfile": "app1/Dockerfile",
+            "context": "app1"
+        }
+    }
+}
